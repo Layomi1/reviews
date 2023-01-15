@@ -5,21 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.12.0-web/css/all.min.css">
     <title>Review project</title>
 </head>
 <body>
     <h1>Our Reviews</h1>
+    <div class="underline"></div>
     <div class="card">
-        <img src="" alt="">
-        <caption>Peter Jones</caption>
+        <img src="./images/lisa.png" alt="img">
+        <h4>Peter Jones</h4>
         <figcaption>Intern</figcaption>
          
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse, corporis velit expedita nam vitae quam molestias inventore nulla modi, voluptate adipisci, nemo iure aspernatur culpa laborum atque unde ullam?</p>
-        <button id="previous-btn"><</button>
-        <button id="next-btn">></button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse, corporis velit expedita nam vitae quam molestias inventore nulla modi, voluptate. It is an incredible experience.</p>
+        <div class="button-container">
+            <button id="previous-btn">
+                <i class="fas fa-chervon.left"></i></button>
+                <button id="next-btn">
+                    <i class="fas fa-chervon.right"></i>
+                </button>
+        </div>
+        
         <button id="surprise-btn">Surprise me</button>
 
     </div>
+
+    <div class="card-2" hidden>
+        <img src="./images/Screenshot (125).png" alt="img">
+        <caption>Mia Jacobs</caption>
+        <figcaption>Intern</figcaption>
+         
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse, corporis velit expedita nam vitae quam molestias inventore nulla modi, voluptate.It is an incredible experience.</p>
+        <!-- remember to change prev and next btns to icons -->
+        <button id="previous-btn"><</button>
+        <button id="next-btn">></button>
+        <button id="surprise-btn">Surprise me</button>
+    </div>
+
+    <div class="card-3" hidden>
+        <img src="./images/sample.png" alt="img">
+        <caption>Lisa Brew</caption>
+        <figcaption>Intern</figcaption>
+         
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse, corporis velit expedita nam vitae quam molestias inventore nulla modi, voluptate.It is an incredible experience.</p>
+        <button id="previous-btn"><</button>
+        <button id="next-btn">></button>
+        <button id="surprise-btn">Surprise me</button>
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
